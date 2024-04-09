@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    border: none;
+}
+
+.h-60{
+    height: 60%;
+}
+
+.absoluto{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.imagem{
+    background-size: cover;
+}
+
+.max-h-container{
+    height: 66vh;
+    max-height: 66vh;
+}
+
+.custom-w{
+    width: 82%;
+}
+
+
+.custom-font{
+    font-size: 0.7vw;
+}
+
+#carouselExample{
+    background-color: black;
+    place-self: center;
+}
+
+.aaa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
